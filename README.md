@@ -9,22 +9,22 @@ Intelligent agents must have the capability to ‘imagine’ and reason about th
 ## The tutorial consists of 4 parts:
 
 #### 1. MiniPacman Environemnt
-MiniPacman is played in a 15 × 19 grid-world. Characters, the ghosts and Pacman, move through a maze.<br>
-[[minipacman.ipynb]](#)
+MiniPacman is played in a 15 × 19 grid-world. Characters, the ghosts and Pacman, move through a maze. The environment was written by [@sracaniere](https://github.com/sracaniere) from DeepMind.<br>
+[[minipacman.ipynb]](https://github.com/higgsfield/Building-Agents-with-Imagination/blob/master/1.minipacman.ipynb)
 
 #### 2. Actor Critic
 Training standard model-free agent to play MiniPacman with advantage actor-critic (A2C)<br>
-[[actor-critic.ipynb]](#)
+[[actor-critic.ipynb]](https://github.com/higgsfield/Building-Agents-with-Imagination/blob/master/2.actor-critic.ipynb)
 
 #### 3. Environment Model
 Environment model is a recurrent neural network which can be trained in an unsupervised
 fashion from agent trajectories: given a past state and current action, the environment model predicts
 the next state and reward.<br>
-[[environment-model.ipynb]](#)
+[[environment-model.ipynb]](https://github.com/higgsfield/Building-Agents-with-Imagination/blob/master/3.environment-model.ipynb)
 
 #### 4. Imagination Augmented Agent
 The I2A learns to combine information from its model-free and imagination-augmented paths. The environment model is rolled out over multiple time steps into the future, by initializing the imagined trajectory with the present time real observation, and subsequently feeding simulated observations into the model. Then a rollout encoder processes the imagined trajectories as a whole and **learns to interpret it**, i.e. by extracting any information useful for the agent’s decision, or even ignoring it when necessary This allows the agent to benefit from model-based imagination without the pitfalls of conventional model-based planning.<br> 
-[[imagination-augmented agent.ipynb]](#)
+[[imagination-augmented agent.ipynb]](https://github.com/higgsfield/Building-Agents-with-Imagination/blob/master/4.imagination-augmented%20agent.ipynb)
 
 ## More materials on model based + model free RL
 
