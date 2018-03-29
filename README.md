@@ -31,4 +31,5 @@ The I2A learns to combine information from its model-free and imagination-augmen
   - The Predictron: End-To-End Learning and Planning [[arxiv]](https://arxiv.org/abs/1612.08810)
   - Model-Based Planning in Discrete Action Spaces [[arxiv]](https://arxiv.org/abs/1705.07177)
   - Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics [[arxiv]](https://arxiv.org/abs/1706.04317)
+  - Model-Based Value Expansion for Efficient Model-Free Reinforcement Learning [[arxiv]](https://arxiv.org/pdf/1803.00101v1.pdf)
   -  World Models [[arxiv]](https://worldmodels.github.io/)
