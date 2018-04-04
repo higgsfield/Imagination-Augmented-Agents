@@ -37,3 +37,4 @@ The I2A learns to combine information from its model-free and imagination-augmen
   - TEMPORAL DIFFERENCE MODELS: MODEL-FREE DEEP RL FOR MODEL-BASED CONTROL [[arxiv]](https://arxiv.org/pdf/1802.09081v1.pdf)
   - Universal Planning Networks [[arxiv]](https://arxiv.org/pdf/1804.00645.pdf)
   -  World Models [[arxiv]](https://worldmodels.github.io/)
+  - Recall Traces: Backtracking Models for Efficient Reinforcement Learning [[arxiv]](https://arxiv.org/pdf/1804.00379.pdf)
